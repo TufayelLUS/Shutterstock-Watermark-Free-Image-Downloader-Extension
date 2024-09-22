@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Shutterstock Watermark Free Image - by Tufayel",
+  "version": "1.0",
+  "description": "Get watermark free image from shutterstock on the fly! Developed by Tufayel",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["https://www.shutterstock.com/*"],
+      "js": ["content-script.js"]
+    }
+  ]
+}
